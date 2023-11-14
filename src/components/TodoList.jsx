@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TodoList({cards, handleCompleteCancelBtn, handleDeleteBtn,listIsDone}) {
+export default function TodoList({cards, handleCompleteCancelBtn, handleDeleteBtn,listIsDone, }) {
   return (
     <div>
       <h2>{listIsDone ? "완료 목록" : "할 일 목록"}</h2>
