@@ -35,7 +35,7 @@ function App() {
       title,
       content,
       isDone: false,
-    };
+    }; 
     setCards([...cards, newCard]);
   };
 
